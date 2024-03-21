@@ -1,0 +1,80 @@
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px; 
+  margin-bottom: 20px;
+}
+
+.login-form .input-field {
+  width: 95%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form .login-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-form .login-button:hover {
+  background-color: #0056b3;
+}
+
+.social-login {
+  margin-top: 20px;
+}
+
+.social-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.social-btn i {
+  margin-right: 5px;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: #fff;
+}
+
+.facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.instagram {
+  background-color: #e4405f;
+  color: #fff;
+}
+
+.linkedin {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.social-btn:hover {
+  opacity: 0.8;
+}
